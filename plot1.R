@@ -1,5 +1,13 @@
 # Set Working directory to location of household_power_consumption.txt
 
+# Requires installation of :
+# "data.table" package to manipulate table data more
+# efficiently in memory
+# version 1.9.4 was used to test this script
+#
+
+if (!"data.table" %in% installed.packages()) install.packages(data.table)
+
 library(data.table)
 
 # read data for 1st and 2nd of Feb 2007
