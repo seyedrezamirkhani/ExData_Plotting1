@@ -21,7 +21,7 @@ rm(dt_header)
 image_width = 480
 image_height = 480
 
-png("plot1.png", width = image_width, height = image_height)
+png("plot1.png", width = image_width, height = image_height, bg = "transparent")
 
 # plot the histogram for Global Active Power
 hist(dt_data$Global_active_power, main = "Global Active Power",

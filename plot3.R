@@ -25,7 +25,7 @@ event_time <- strptime(paste(dt_data$Date, dt_data$Time),
 image_width = 480
 image_height = 480
 
-png("plot3.png", width = image_width, height = image_height)
+png("plot3.png", width = image_width, height = image_height, bg = "transparent")
 
 ################################################################################
 #       Energy sub metering
