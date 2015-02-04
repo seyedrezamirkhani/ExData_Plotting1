@@ -16,11 +16,12 @@ This project consists of the following:
 <li>[plot4.R] (plot4.R)</li>
 </ul>
 5. Output image files generated for the project
-* [plot1.png] (plot1.png)
-* [plot2.png] (plot2.png)
-* [plot3.png] (plot3.png)
-* [plot4.png] (plot4.png)
-
+<ul>
+<li>[plot1.png] (plot1.png)</li>
+<li>[plot2.png] (plot2.png)</li>
+<li>[plot3.png] (plot3.png)</li>
+<li>[plot4.png] (plot4.png)</li>
+</ul>
 ## Instruction List
 
 * The R scripts only load the required data for the assignment i.e. data for 2007-02-01 and

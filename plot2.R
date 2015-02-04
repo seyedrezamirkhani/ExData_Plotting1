@@ -4,7 +4,10 @@ library(data.table)
 
 # read data for 1st and 2nd of Feb 2007
 dt_data <- fread("household_power_consumption.txt", header = FALSE, sep = ";",
-            na.strings = "?", colClasses=c("character", "character", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric"), skip=66637, nrows = 2880)
+                 na.strings = "?", colClasses=c("character", "character", "numeric",
+                                                "numeric", "numeric", "numeric", 
+                                                "numeric", "numeric", "numeric"),
+                 skip=66637, nrows = 2880)
 
 # read header names only
 dt_header <- fread("household_power_consumption.txt", header = TRUE, sep = ";", nrows = 0)
