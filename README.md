@@ -7,9 +7,17 @@ This project consists of the following:
 
 1. Project instruction page
 2. "Instruction List" see below
-3. Code Book
+3. [Code Book] (CodeBook.md)
 4. The R Scripts for implementing the project
+* [plot1.R] (plot1.R)
+* [plot2.R] (plot2.R)
+* [plot3.R] (plot3.R)
+* [plot4.R] (plot4.R)
 5. Output image files generated for the project
+* [plot1.png] (plot1.png)
+* [plot2.png] (plot2.png)
+* [plot3.png] (plot3.png)
+* [plot4.png] (plot4.png)
 
 ## Instruction List
 
