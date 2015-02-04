@@ -5,7 +5,7 @@ Coursera course.
 
 This project consists of the following:
 
-1. Project instruction page
+1. [Project instruction page] (ProjectInstructions.md)
 2. "Instruction List" see below
 3. [Code Book] (CodeBook.md)
 4. The R Scripts for implementing the project
