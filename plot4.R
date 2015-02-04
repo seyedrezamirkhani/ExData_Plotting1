@@ -25,7 +25,7 @@ event_time <- strptime(paste(dt_data$Date, dt_data$Time),
 image_width = 480
 image_height = 480
 
-png("plot4.png", width = image_width, height = image_height)
+png("plot4.png", width = image_width, height = image_height, bg = "transparent")
 
 # setup canvas as 2 x 2 graph area
 par(mfrow = c(2, 2))
